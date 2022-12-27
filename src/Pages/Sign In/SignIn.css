@@ -1,0 +1,119 @@
+.signin{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-title h1{
+    font-size: 700;
+    color: #0669DE;
+}
+
+.login-title p{
+    font-size: 700;
+}
+
+.login-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login-input p{
+    align-self: baseline;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.login-input a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0669DE;
+    width: fit-content;
+}
+
+.login-input a:hover{
+    margin-top: 10px;
+    text-decoration: none;
+    border: 1px dashed aqua;
+
+}
+
+.login-input input{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+.login-button{
+    margin-top: 40px;
+}
+
+.login-button button{
+    background-color: #0669DE;
+    color: white    ;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    border-color: rgb(119, 119, 119);
+}
+
+.login-button button:hover{
+    background-color: rgb(22, 110, 197);
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button a{
+    text-decoration: none;
+    color: #0669DE;
+}
+
+.login-options p{
+    font-weight: lighter;
+}
+
+.login-plats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-plats .google-button, .facebook-button{
+    margin: 10px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 5px;
+    width: 150px;
+    height: 75px;
+    box-shadow: 0px 2px 2px rgb(119, 119, 119);
+}
+
+.login-plats a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.terms a{
+    text-decoration: none;
+    color: #0669DE;
+    font-weight: 600;
+}

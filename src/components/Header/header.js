@@ -19,6 +19,16 @@ export const StyledHeader = styled.div`
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        animation: App-logo-spin 4s cubic-bezier(0, .25, .7125, .1) infinite;
+
+        @keyframes App-logo-spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
     }
 
     .title{
@@ -27,6 +37,12 @@ export const StyledHeader = styled.div`
         align-items: center;
         justify-content: center;
         width: 20%;
+
+        :hover{
+            background-color: #1979d5;
+            border-radius: 10px;
+            transition: .4s ease-in;
+        }
     }
     
     .routes{
@@ -59,6 +75,7 @@ export const StyledHeader = styled.div`
         justify-content: space-between;
         width: 100%;
         padding-right: 10px;
+        transition: .4s ease-in;
 
         li{
             border: 1px solid dodgerblue;
@@ -80,6 +97,11 @@ export const StyledHeader = styled.div`
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: center;
+            }
+
+            :hover{
+                box-shadow: inset -10.5em 0 0 0 #1979d5, inset 10.5em 0 0 0 #1979d5;
+                transition: .4s ease-in;
             }
             
         }

@@ -1,10 +1,18 @@
-import Header from './layout/Header/Header';
+import Header from './components/Header/Header';
+import Content from './layout/Content/Content';
+import Footer from './components/Footer/Footer';
+
+import { BrowserRouter } from 'react-router-dom';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header title = "Header's"></Header>       
+      <BrowserRouter>
+        <Header title = "Tester's"/>
+        <Content />
+      </BrowserRouter>
     </div>
   );
 }

@@ -7,33 +7,35 @@ const Header = props => {
     return(
         <StyledHeader>
             <div className="title">
-                <div className="circle">
-                    <Icon size="80" className="icon"></Icon>
-                </div>
-                <h1><a href = "/">{props.title}</a></h1>
+                <a href = '/'>
+                    <div className="circle">
+                        <Icon size="80" className="App-logo"></Icon>
+                    </div>
+                    <h1>{props.title}</h1>
+                </a>
             </div>
             <div className="routes">
                 <ul>
                     <li>
-                        <a>
+                        <a href= '/about'>
                             About
                             <ChevromDown size = "24" color = "white"></ChevromDown>
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href= '/services'>
                             Services
                             <ChevromDown size = "24" color = "white"></ChevromDown>
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href= '/contactus'>
                             Contact Us
                             <ChevromDown size = "24" color = "white"></ChevromDown>
                         </a>
                     </li>
                     <li>
-                        <a>
+                        <a href= '/signin'>
                             Sign In
                             <ChevromDown size = "24" color = "white"></ChevromDown>
                         </a>
